@@ -14,7 +14,7 @@ public class MyController {
 
 	@GetMapping("/user")
 	public String getUser() {
-		return "Hi, docker app getting user";
+		return "Hi, user";
 
 	}
 
