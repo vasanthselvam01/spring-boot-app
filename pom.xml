@@ -8,6 +8,7 @@
 		<version>2.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<!-- demo-->
 	<groupId>com.example</groupId>
 	<artifactId>docker-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
