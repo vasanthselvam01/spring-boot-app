@@ -12,7 +12,7 @@ public class MyController {
 		
 	}
 
-	@GetMapping("/user")
+	@GetMapping("/users")
 	public String getUser() {
 		return "Hi, user";
 
