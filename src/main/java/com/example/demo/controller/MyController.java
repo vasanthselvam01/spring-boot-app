@@ -18,4 +18,10 @@ public class MyController {
 
 	}
 
+	@GetMapping("/newuser")
+	public String getUser() {
+		return "Hi, new user";
+
+	}
+
 }
