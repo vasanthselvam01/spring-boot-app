@@ -19,7 +19,7 @@ public class MyController {
 	}
 
 	@GetMapping("/newuser")
-	public String getUser() {
+	public String getNewUser() {
 		return "Hi, new user";
 
 	}
