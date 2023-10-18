@@ -1,7 +1,4 @@
-FROM openjdk:8
-
-EXPOSE 8282
-
-ADD target/docker-demo.jar docker-demo.jar
-
-ENTRYPOINT ["java", "-jar", "docker-demo.jar"]
+FROM openjdk
+COPY target/*.jar /
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","/docker-demo-0.0.1-SNAPSHOT.jar"]
